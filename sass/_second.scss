@@ -1,0 +1,44 @@
+#second {
+  background-color: black;
+  .development {
+    width: 100%;
+    padding: 25px;
+    background-color: gainsboro;
+    .development-conainer {
+      margin: auto;
+      max-width: 1290px;
+      .develeop-main {
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        background-color: #ffffff;
+        div {
+          ul {
+            li {
+              display: flex;
+              align-items: center;
+              gap: 50px;
+              p {
+                width: 50px;
+                font-family: "Montserrat";
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 20px;
+              }
+              .line-one {
+                text-align: center;
+                width: 120px;
+                height: 4px;
+                background-color: rgb(31, 31, 219);
+                border-radius: 3px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

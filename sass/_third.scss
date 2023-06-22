@@ -1,0 +1,42 @@
+#third {
+  .experience {
+    width: 100%;
+
+    .experience-container {
+      max-width: 1370px;
+      margin: 20px auto;
+      padding: 30px;
+
+      .boxes {
+        border-radius: 10px;
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .box {
+          width: 100%;
+          text-align: center;
+          padding: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  #third {
+    .experience {
+      .experience-container {
+        .boxes {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+
+          .box {
+          }
+        }
+      }
+    }
+  }
+}
